@@ -20,7 +20,7 @@
       margin: 0 auto; /* Gives that scrolling effect as the typing happens */
       letter-spacing: .15em; /* Adjust as needed */
       animation: 
-        typing 3.5s steps(30, end),
+        typing 2.5s steps(30, end),
         blink-caret .5s step-end infinite;
     }
 
@@ -33,7 +33,7 @@
       margin: 0 auto; /* Gives that scrolling effect as the typing happens */
       letter-spacing: .15em; /* Adjust as needed */
       animation: 
-        typing 7.5s steps(30, end),
+        typing 50.5s steps(30, end),
         blink-caret .5s step-end infinite;
     }
 
@@ -51,9 +51,21 @@
 </style>
 </head>
 <body>
-    <div class="typewriter">
+    <div class="typewriter" class="header_title">
       <h1>Era uma vez num mundo tão tão distante...</h1>
-      <h2>um garoto se mudou para uma nova escola</h2>
+
+      <h2>Era uma vez num mundo tão tão distante...</h2>
     </div>
+
+    <marquee scrolldelay="500">Seja bem-vindo ao curso HTML Progressivo - Apostila completa, online e grátis de HTML
+
+        <label for="story">Tell us your story:</label>
+
+<textarea id="story" name="story" rows="5" cols="13">
+It was a dark and stormy night...
+</textarea>
+
+
+
 </body>
 </html>
