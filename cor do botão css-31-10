@@ -1,0 +1,13 @@
+button {
+    color: white;
+    background: blue;
+    transition: background 1s;
+    height: 30px;
+  }
+  
+  button:hover,
+  button:focus {
+    background: red;
+  }
+  
+  
