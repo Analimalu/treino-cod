@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Joguinho </title>
+        <link rel="stylesheet" href="bo.css">
+
+    </head>
+    <body>
+
+       <header>
+       <h1 class="titulo-principal"> Joguinho</h1> 
+
+       <section>>
+        <figure class="gif">
+              <img src="fundo.gif">
+        </figure>
+      </section>
+       </header>
+
+       <elemento onclick="funçãoQueSeráExecutada()">Clique aqui</element>
+
+       <p></p>
+       <text>var base = parseFloat(prompt("Qual o valor da base?"));
+        var altura = parseFloat(prompt("Qual o valor da altura?"));
+        alert("O valor da área é " + (base * altura));</text></p>
+        Os desenhos animados japoneses, conhecidos como animes, são uma febre entre muitos brasileiros. 
+    <p><text>As produções abordam vários temas diferentes e, nos diálogos, é possível encontrar de tudo,
+        de frases engraçadas até motivacionais e filosóficas.
+        Selecionamos as 50 melhores frases de personagens de animes para você conhecer (ou ficar ainda mais fã) desse universo.</text></p>
+    
+       <br><br><br><br><br><br>
+       <br><br><br><br><br><br><br><br>
+    <div><a href='apresent.html'><button>começar</button></a></div>
+
+    <img id="fundo" src="img-nuvem.jpg">
+
+
+    </body>
+</html>
