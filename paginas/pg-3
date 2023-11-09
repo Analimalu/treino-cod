@@ -1,0 +1,120 @@
+////corre.html////
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="corre.css">
+</head>
+<body color="green">
+
+   <a href='trei-botao.html'><button class=" btn-1">voltar</button></a>
+   <a href='apresent.html'><button class=" btn-1">pagina</button></a>
+
+
+   <link rel="stysheet" href="cach.gif">
+   <section> 
+     <figure class="gif">
+           <img src="gibl.gif">
+     </figure>
+   </section>
+
+  <footer class=" fo-1"> <marquee>FRASE Q VAI APARECER P/ O JOGADOR</marquee></footer>
+  <footer>
+    <div><center><a href='trei-botao.html'><button class=" btn-2">correr</button></a></center></div><br>
+    <div><center><a href='trei-botao.html'><button class=" btn-2">fingir desmaio</button></a></center></div><br>
+    <div><center><a href='trei-botao.html'><button class=" btn-2">conversar</button></a></center></div><br>
+  </footer>
+      
+</body>
+</html>
+
+///////////////////////////
+body{
+    background: url(fundo.gif);
+    border-style:groove;
+    border-color: #334233;
+    background-color: aqua;
+   
+}
+
+.gif{
+    object-position: right;
+    width: 225px;
+    height: 300px;
+
+}
+
+div{
+    text-align: right;
+    object-position: 40px;
+}
+
+
+header{
+    text-align: center;
+    background-color:#203550;
+    padding: 30px;
+    width: 1400px;
+    height: 50px;
+    object-position: center;
+
+}
+
+.gif {
+    text-align: center;
+   padding: 15px;
+}
+
+p{
+    border: solid;
+    height: 170px;
+    width: 100px;
+    text-align: center;
+
+}
+
+.fo-1{
+    background-color:#2a4569;
+}
+
+footer{
+    text-align: center;
+    background-color:#203550;
+    padding: 35px;
+    
+}
+
+.btn-1{
+    height: 60px;
+    width: 100px;
+    background: rgb(190, 150, 141);
+    border-radius:5px;
+    object-position: right;
+   
+  }
+
+.btn-2 {
+    color: white;
+    background: blue;
+    transition: background 1s;
+    height: 60px;
+    width: 1220px;
+  }
+  .btn-2:hover,
+  .btn-2:focus {
+    background: red;
+  }
+
+
+
+  footer{
+    text-align: center;
+    background-color:#203550;
+    padding: 35px;
+    opacity : 0.9;
+  }
+
+  .fo-1{
+    background-color:#2a4569;
+  }
