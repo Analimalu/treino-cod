@@ -1,0 +1,42 @@
+<html>
+    <body>
+
+        <input type = "color" onclick="alterarCor()" <div class = "circle" ></div> />
+        
+        <script>
+            seletor = document.querySelector("input");
+            
+            function alterarCor(){
+                document.body.style = seletor.value;
+            }
+        </script> 
+        
+        <style>
+            body{
+                justify-content: center;  
+                align-items: center;
+                
+            }        
+        
+            .circle{
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background: transparent;
+                border-radius: 50%;
+                border: 5px solid #ffffff;
+            }
+            
+            input{
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background: transparent;
+                border-radius: 50%;
+                border: 5px solid #ffffff;
+            }
+        </style>
+        
+        
+    </body>
+</html>
